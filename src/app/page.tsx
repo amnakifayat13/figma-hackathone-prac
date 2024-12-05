@@ -1,3 +1,6 @@
+import BestSellingProducts from "@/components/Helper/bestSellingProducts";
+import CategoryOption from "@/components/Helper/c";
+import ExploreProducts from "@/components/Helper/exploreProducts";
 import FlashSales from "@/components/Helper/flashSales";
 import Sec from "@/components/Helper/seondary";
 import { Button } from "@/components/ui/button";
@@ -90,7 +93,55 @@ export default function Home() {
        <Sec/>
        <h2 className="text-red-700 mt-2 font-semibold  ">Categories</h2>
        </div>
+       
+        <div className="flex justify-between">
+        <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold ml-24 mt-4">Browse By Category</h1>
+       <div className="hidden md:flex mr-28">
+       <button><Image src="/LeftArrow.png" alt="" width={40} height={40}/></button>
+       <button className="ml-2"><Image src="/RightArrow.png" alt="" width={40} height={40}/></button>
+       </div>
+</div>
+      <CategoryOption/>
       </div>
+
+      <div className="pt-16 pb-16">
+      <div className="flex space-x-4 ">
+       <Sec/>
+       <h2 className="text-red-700 mt-2 font-semibold  ">This Month</h2>
+       </div>
+       <div className="flex justify-between">
+        <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold ml-24 mt-4">Best Selling Products</h1>
+       <Button variant={"destructive"} className="text-white mr-28">View All</Button>
+      </div>
+      <div>
+        <BestSellingProducts/>
+      </div>
+      </div>
+
+      <div className="pt-16 pb-16">
+        <Image src="/Frame.png" alt="frame" width={1000} height={800} className="md:ml-40"/>
+
+      </div>
+      <div className="pt-16 pb-16">
+      <div className="flex space-x-4 ">
+       <Sec/>
+       <h2 className="text-red-700 mt-2 font-semibold  ">Our Products</h2>
+       </div>
+       </div>
+       <div className="flex justify-between">
+        <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold ml-24 mt-4">Browse By Category</h1>
+       <div className="hidden md:flex mr-28">
+       <button><Image src="/LeftArrow.png" alt="" width={40} height={40}/></button>
+       <button className="ml-2"><Image src="/RightArrow.png" alt="" width={40} height={40}/></button>
+       </div>
+</div>
+       <div>
+        <ExploreProducts/>
+        <div className="flex justify-center items-center mt-20 text-white">
+      <Button variant={"destructive"}>Veiw All Products</Button>
+      </div>
+        
+       </div>
   
 
   
