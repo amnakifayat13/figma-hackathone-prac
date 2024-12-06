@@ -2,7 +2,9 @@ import BestSellingProducts from "@/components/Helper/bestSellingProducts";
 import CategoryOption from "@/components/Helper/c";
 import ExploreProducts from "@/components/Helper/exploreProducts";
 import FlashSales from "@/components/Helper/flashSales";
+import NewArrival from "@/components/Helper/newArrival";
 import Sec from "@/components/Helper/seondary";
+import Services from "@/components/Helper/services";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 import Image from "next/image";
@@ -113,7 +115,7 @@ export default function Home() {
         <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold ml-24 mt-4">Best Selling Products</h1>
        <Button variant={"destructive"} className="text-white mr-28">View All</Button>
       </div>
-      <div>
+      <div className="mt-10">
         <BestSellingProducts/>
       </div>
       </div>
@@ -142,6 +144,21 @@ export default function Home() {
       </div>
         
        </div>
+
+      <div className="pt-16 pb-16">
+      <div className="flex space-x-4 ">
+       <Sec/>
+       <h2 className="text-red-700 mt-2 font-semibold  ">Featured</h2>
+       </div>
+       <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold ml-24 mt-4">New Arrival</h1>
+      <div>
+        <NewArrival/>
+       </div>
+      </div>
+
+      <div className="pt-16 pb-16">
+        <Services/>
+      </div>
   
 
   
