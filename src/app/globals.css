@@ -60,3 +60,39 @@
   }
  
 }
+/* Container for the selection circle */
+.selection-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+/* Circle inside the selection container */
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the container */
+.selection-circle:hover {
+  border-color: #67696b; /* Change border color on hover */
+}
+
+/* Hover effect for the circle */
+.selection-circle:hover .circle {
+  background-color: #595b5e; /* Fill circle on hover */
+  border-color: #787c80;
+}
+
+

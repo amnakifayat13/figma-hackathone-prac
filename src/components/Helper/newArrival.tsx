@@ -23,8 +23,8 @@ export default function NewArrival(){
                 <Image src="/n2.png" alt="n2" width={250} height={250} />
                 </div>
                 <div className="absolute ml-4 mt-20">
-                    <h2 className="text-white">Women's Collection</h2>
-                    <p className="text-white text-xs">Featured Womens' collection that <br/> give you another vibe.</p>
+                    <h2 className="text-white">Women&apos; Collection</h2>
+                    <p className="text-white text-xs">Featured Womens&apos; collection that <br/> give you another vibe.</p>
                     <button className="underline text-white mt-2">Shop Now</button>
                 </div>
                  

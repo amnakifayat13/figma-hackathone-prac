@@ -15,13 +15,13 @@ export default function Home() {
       <div className="flex gap-0">
         <div className="hidden md:block ml-24  border-r border-slate-300 lg:w-60">
           <ul className="mt-10 text-sm cursor-pointer">
-            <li className="mt-3">Women's Fashion </li>
-            <li className="mt-3">Men's Fashion</li>
+            <li className="mt-3">Women &apos; Fashion </li>
+            <li className="mt-3">Men &apos; Fashion</li>
             <li className="mt-3">Electronics</li>
             <li className="mt-3">Home & Life Style</li>
             <li className="mt-3">Medicine</li>
             <li className="mt-3">Sports & Outdoor</li>
-            <li className="mt-3">Baby's & Toys</li>
+            <li className="mt-3">Baby &apos; & Toys</li>
             <li className="mt-3">Groceries & Pets</li>
             <li className="mt-3">Health & Beauty</li>
           </ul>
@@ -40,7 +40,7 @@ export default function Home() {
       <div className="pt-16 pb-16">
        <div className="flex space-x-4 ">
        <Sec/>
-       <h2 className="text-red-700 mt-2 font-semibold  ">Today's</h2>
+       <h2 className="text-red-700 mt-2 font-semibold  ">Today &apos; s</h2>
        </div>
        <div className="flex mt-2">
         <h1 className="text-xl sm:text-2xl md:text-3xl   ml-2 md:ml-24 ">Flash Sales</h1>

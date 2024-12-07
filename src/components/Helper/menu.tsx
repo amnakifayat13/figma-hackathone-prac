@@ -26,13 +26,13 @@ export default function Menu(){
                 </ul>
                 <h1 className="text-2xl text-white underline">Categories</h1>
                 <ul className=" text-sm">
-            <li className=" nav__link mt-3 text-white">Women's Fashion </li>
-            <li className=" nav__link mt-3 text-white">Men's Fashion</li>
+            <li className=" nav__link mt-3 text-white">Women&apos; Fashion </li>
+            <li className=" nav__link mt-3 text-white">Men&apos; Fashion</li>
             <li className=" nav__link mt-3 text-white">Electronics</li>
             <li className=" nav__link mt-3 text-white">Home & Life Style</li>
             <li className=" nav__link mt-3 text-white">Medicine</li>
             <li className=" nav__link mt-3 text-white">Sports & Outdoor</li>
-            <li className=" nav__link mt-3 text-white">Baby's & Toys</li>
+            <li className=" nav__link mt-3 text-white">Baby&apos; & Toys</li>
             <li className=" nav__link mt-3 text-white">Groceries & Pets</li>
             <li className=" nav__link mt-3 text-white">Health & Beauty</li>
           </ul>
